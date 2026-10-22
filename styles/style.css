@@ -200,12 +200,14 @@
 .card__title {
     font-size: 22px;
     font-weight: bold;
-    line-height: 1.25;
+    line-height: 1.2;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .card__text {
-    font-size: 15px;
-    line-height: 1.4;
+    font-size: 18px;
+    line-height: 1.2;
 }
 
 .lots__look-more-link {
