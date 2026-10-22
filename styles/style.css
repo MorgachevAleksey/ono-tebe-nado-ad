@@ -11,9 +11,9 @@
     align-items: flex-start;
     gap: 5px;
     max-width: 220px;
-    font-size: 13px;
+    font-size: 11px;
     font-style: normal;
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 .header {
@@ -57,6 +57,7 @@
 
 .header__address {
     justify-self: end;
+    margin-right: 100px;
 }
 
 .cover {
@@ -81,7 +82,7 @@
     max-width: 1000px;
     font-size: 100px;
     font-weight: bold;
-    line-height: 1.15;
+    line-height: 1.35;
     letter-spacing: 0.3em;
     text-transform: uppercase;
 }
@@ -96,6 +97,7 @@
 
 .aligned-text_center {
     text-align: center;
+    transform: translateX(15px);
 }
 
 .aligned-text_right {
@@ -178,7 +180,7 @@
     justify-content: space-between;
     gap: 15px;
     height: 100%;
-    padding: 40px;
+    padding: 50px 40px 40px;
     color: #fff;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,7 +208,7 @@
 }
 
 .card__text {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.2;
 }
 
@@ -223,7 +225,12 @@
     grid-template-columns: calc((100% - 50px) / 3) 1fr;
     gap: 30px;
     padding: 90px 24px 180px;
-    align-items: center;
+    align-items: start;
+}
+
+.about__column_type_text {
+    display: grid;
+    grid-template-rows: 240px auto;
 }
 
 .about__logo {
@@ -242,7 +249,8 @@
 }
 
 .about__title {
-    margin-bottom: 30px;
+    align-self: center;
+    margin-bottom: 0;
     font-size: 36px;
     line-height: 1.2;
     text-transform: uppercase;
@@ -252,7 +260,7 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -279,14 +287,14 @@
 
 .footer__social-list {
     display: flex;
-    gap: 15px;
+    gap: 48px;
     justify-self: end;
     list-style: none;
 }
 
 .footer__social-link {
     display: block;
-    width: 24px;
+    width: 48px;
 }
 
 .footer__social-icon {
