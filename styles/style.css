@@ -65,10 +65,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-between;
+    gap: 20px;
     min-height: 757px;
-    padding: 60px 50px;
+    padding: 165px 50px 50px;
     color: #fff;
     background-image: url(../images/cover.jpg);
     background-position: center;
@@ -79,10 +79,10 @@
 .cover__title {
     width: 100%;
     max-width: 1000px;
-    font-size: 105px;
+    font-size: 100px;
     font-weight: bold;
-    line-height: 1.1;
-    letter-spacing: 0.1em;
+    line-height: 1.15;
+    letter-spacing: 0.3em;
     text-transform: uppercase;
 }
 
@@ -110,22 +110,24 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     width: 100%;
     max-width: 1000px;
-    gap: 20px;
+    gap: 78px;
 }
 
 .cover__description-text {
     font-size: 22px;
-    line-height: 1.4;
+    line-height: 28px;
     text-align: left;
-    word-spacing: 8px;
-    max-width: 500px;
+    text-transform: uppercase;
+    word-spacing: 18px;
 }
 
 .bet-button {
-    padding: 16px 40px;
+    width: 256px;
+    height: 51px;
+    padding: 0;
     border: 1px solid #fff;
     color: inherit;
     background-color: transparent;
@@ -133,7 +135,8 @@
     letter-spacing: 0.1em;
     cursor: pointer;
     white-space: nowrap;
-    font-size: 14px;
+    font-size: 22px;
+    line-height: 49px;
 }
 
 .lots {
@@ -141,7 +144,7 @@
 }
 
 .lots__heading {
-    margin-bottom: 30px;
+    margin: 0 0 30px 40px;
     font-size: 36px;
     line-height: 1.2;
     text-transform: uppercase;
@@ -156,7 +159,7 @@
 }
 
 .lots__card-list-item {
-    width: calc(33.333% - 17px);
+    width: calc((100% - 50px) / 3);
     min-width: 300px;
     min-height: 596px;
 }
@@ -175,7 +178,7 @@
     justify-content: space-between;
     gap: 15px;
     height: 100%;
-    padding: 25px;
+    padding: 40px;
     color: #fff;
     background-position: center;
     background-repeat: no-repeat;
@@ -208,14 +211,14 @@
 .lots__look-more-link {
     display: block;
     width: fit-content;
-    margin: 30px auto 0;
+    margin: 30px 0 0 40px;
     font-size: 16px;
     line-height: 1.5;
 }
 
 .about {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: calc((100% - 50px) / 3) 1fr;
     gap: 30px;
     padding: 90px 24px 180px;
     align-items: center;
